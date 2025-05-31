@@ -83,7 +83,7 @@ function BMICalculator({ saveToHistory, setError, theme }) {
           type="number"
           value={height}
           onChange={(e) => setHeight(e.target.value)}
-          placeholder="Enter height in cm"
+          placeholder="Enter height in cm (180cm)"
         />
       </div>
       <div className="input-group">
@@ -92,7 +92,7 @@ function BMICalculator({ saveToHistory, setError, theme }) {
           type="number"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
-          placeholder="Enter weight in kg"
+          placeholder="Enter weight in kg (65kg)"
         />
       </div>
       <div className="button-group">
